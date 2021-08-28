@@ -1,0 +1,65 @@
+/* google fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@500&display=swap");
+
+/* common css  */
+body {
+    font-family: "Kaisei Tokumin", serif;
+}
+a {
+    text-decoration: none;
+}
+.form-container {
+    width: 50%;
+    padding: 90px;
+}
+.section-title {
+    letter-spacing: 0.1rem;
+}
+.custom-form-control:focus {
+    border-color: blue;
+    box-shadow: 0 0 0 0.07rem blue;
+}
+.form-next-btn {
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.09rem;
+    background-color: rgba(0, 0, 255, 0.945);
+}
+.form-prev-btn {
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.09rem;
+    background-color: gainsboro;
+    color: grey;
+}
+.formCountry {
+    color: rgb(139, 127, 127);
+}
+
+/* second page design  */
+#progress2 {
+    width: 50%;
+    border: 1px solid green;
+}
+.second-form-hr {
+    margin-top: 120px;
+}
+/* third page design  */
+#progress3 {
+    width: 100%;
+    border: 1px solid green;
+}
+.rounded-numbering {
+    width: 55px;
+    height: 50px;
+}
+
+/* responsive media query  */
+@media only screen and (max-width: 960px) {
+    .form-container {
+        width: 80%;
+        padding: 40px;
+    }
+}
